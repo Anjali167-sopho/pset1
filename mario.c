@@ -13,7 +13,7 @@ int main(void)
       }
       while(false);
     }
-    while(height>23);
+    while(height>23 || height<0);
     for(i=0;i<height;i++)
     {
         for(j=0;j<=(height);j++)
